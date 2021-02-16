@@ -22,8 +22,8 @@ h1{
 .fileload{
   position: fixed;
   z-index: 10;
-  height: 110%;
-  width: 110%;
+  height: 100%;
+  width: 100%;
   background-color:#0000A7;
   text-align: center;
 }
