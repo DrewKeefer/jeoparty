@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>Jeoparty!</title>
+</head>
+
+<body>
+    <div class="fileload" id='file-load'>
+        <h1>WELCOME TO</h1>
+        <img src="./titlecard.png" class="titlecard">
+        <br>
+        <input id="answerFile" type="file" style="display:none;">
+        <button class="filebtn" type="button">
+            <label for="answerFile">Answers</label>
+        </button>
+        <input id="categoryFile" type="file" style="display:none;">
+        <button class="filebtn" type="button">
+            <label for="categoryFile">Categories</label>
+        </button>
+        <input id="questionFile" type="file" style="display:none;">
+        <button class="filebtn" type="button">
+            <label for="questionFile">Questions</label>
+        </button>
+        <br>
+        <button class="continuebtn" id="continue-btn">CONTINUE</button>
+    </div>
+<table class="maintable" id="main-table">
+    <tr class="category">
+        <th id="cat-one">category1</th>
+        <th id="cat-two">category2</th>
+        <th id="cat-three">category3</th>
+        <th id="cat-four">category4</th>
+        <th id="cat-five">category5</th>
+        <th id="cat-six">category6</th>
+    </tr>
+    <tr id="quest100">
+        <td><button class="btn" >$100</button></td>
+        <td><button class="btn">$100</button></td>
+        <td><button class="btn">$100</button></td>
+        <td><button class="btn">$100</button></td>
+        <td><button class="btn">$100</button></td>
+        <td><button class="btn">$100</button></td>
+    </tr>
+    <tr id="quest200">
+        <td><button class="btn">$200</button></td>
+        <td><button class="btn">$200</button></td>
+        <td><button class="btn">$200</button></td>
+        <td><button class="btn">$200</button></td>
+        <td><button class="btn">$200</button></td>
+        <td><button class="btn">$200</button></td>
+    </tr>
+    <tr id="quest300">
+        <td><button class="btn">$300</button></td>
+        <td><button class="btn">$300</button></td>
+        <td><button class="btn">$300</button></td>
+        <td><button class="btn">$300</button></td>
+        <td><button class="btn">$300</button></td>
+        <td><button class="btn">$300</button></td>
+    </tr>
+    <tr id="quest400">
+        <td><button class="btn">$400</button></td>
+        <td><button class="btn">$400</button></td>
+        <td><button class="btn">$400</button></td>
+        <td><button class="btn">$400</button></td>
+        <td><button class="btn">$400</button></td>
+        <td><button class="btn">$400</button></td>
+    </tr>
+    <tr id="quest500">
+        <td><button class="btn">$500</button></td>
+        <td><button class="btn">$500</button></td>
+        <td><button class="btn">$500</button></td>
+        <td><button class="btn">$500</button></td>
+        <td><button class="btn">$500</button></td>
+        <td><button class="btn">$500</button></td>
+    </tr>
+    </div>  
+</table>
+<div class="questcontainer hide" id="question-container">
+    <div class="questiontext" id="question-text">Question</div>
+    <div><button class="answerbtn" id="answer-btn">ANSWER IS</button></div>
+</div>
+<div class="answercontainer hide" id="answer-container">
+<div class="answertext" id="answer-text">Answer</div>
+<div><button class="resetbtn" id="reset-btn">RETURN</button></div>
+</div>
+</body>
+</html>
