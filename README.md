@@ -1,3 +1,3 @@
-# HELLO AND WELCOME TO JEOPARTY
+# THIS... IS... JEOPARTY!
 
-and im your host, drew keefer. 
+
