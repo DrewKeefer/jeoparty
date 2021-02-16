@@ -10,4 +10,4 @@ That's really it. There's no final Jeopardy or daily doubles yet because I haven
 
 ## HOW TO USE MY SHITTY SITE
 
-Either download the whole repository or go to https://drewkeefer.github.io/jeoparty/. This is real Jeopardy shit, so everything is pulled from https://j-archive.com. But I suck at coding, so all the questions are stored in text files (which may or may not have wack html artifacts still included in them) and then loaded back into the site at the beginning of every game. Click on the "Answers", "Categories", and "Questions" buttons to load ####_answers.txt, ####_categories", and "####_questions"
+Either download the whole repository or go to https://drewkeefer.github.io/jeoparty/. This is real Jeopardy shit, so everything is pulled from https://j-archive.com. But I suck at coding, so all the questions are stored in text files (which may or may not have wack html artifacts still included in them) and then loaded back into the site at the beginning of every game. Click on the "Answers", "Categories", and "Questions" buttons to load `####_answers.txt`, `####_categories.txt`, and `####_questions.txt` respectively. 
